@@ -1,0 +1,23 @@
+while True:
+    search_ent = input("search...🔎 ")
+    if search_ent == "while loop ":
+        print('_________________________________________________________________________________')
+        print("While x <5:    this will run any indented scripts as long as x var is less than 5")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "for loop":
+        print('_________________________________________________________________________________')
+        print("For x in #list name#: will run for the amount of items in a list")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "user input":
+        print('_________________________________________________________________________________')
+        print("#var name# = input(#enter text#) will set a var to user input")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "text and integers":
+        print('_________________________________________________________________________________')
+        print(
+            "text func is a store for text, integer does the same for numbers, string numbers are numbers that act as text and finally print() func displays all text and integer stores")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "var":
+        print('_________________________________________________________________________________')
+        print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
