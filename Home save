@@ -21,3 +21,52 @@ while True:
         print('_________________________________________________________________________________')
         print("Var means Variable, func means function")
         print('---------------------------------------------------------------------------------')
+
+
+
+
+x = 1
+while True:
+    user_1 = input("enter number 1-9 ")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    print("")
+    user_2 = input("enter number 1-9 ")
+    if user_2 == user_1:
+        print("you've been caught!")
+        break
+    elif x == 7:
+        print("the runner has got away...")
+        break
+    else:
+        print("the chaser has not found you...")
+    x = x + 1
