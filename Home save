@@ -1,6 +1,17 @@
+print("___________    ___________")
+print("I         I    I          ")
+print("I         I    I          ")
+print("-----------    -----------")
+print("I                        I")
+print("I                        I")
+print("I              -----------")
 while True:
-    search_ent = input("search...🔎 ")
+    search_ent = input("Search...🔎 ")
     if search_ent == "while loop ":
+        print('_________________________________________________________________________________')
+        print("While x <5:    this will run any indented scripts as long as x var is less than 5")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "while":
         print('_________________________________________________________________________________')
         print("While x <5:    this will run any indented scripts as long as x var is less than 5")
         print('---------------------------------------------------------------------------------')
@@ -8,7 +19,19 @@ while True:
         print('_________________________________________________________________________________')
         print("For x in #list name#: will run for the amount of items in a list")
         print('---------------------------------------------------------------------------------')
+    elif search_ent == "loop":
+        print('_________________________________________________________________________________')
+        print("For x in #list name#: will run for the amount of items in a list")
+        print('---------------------------------------------------------------------------------')
     elif search_ent == "user input":
+        print('_________________________________________________________________________________')
+        print("#var name# = input(#enter text#) will set a var to user input")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "input":
+        print('_________________________________________________________________________________')
+        print("#var name# = input(#enter text#) will set a var to user input")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "user":
         print('_________________________________________________________________________________')
         print("#var name# = input(#enter text#) will set a var to user input")
         print('---------------------------------------------------------------------------------')
@@ -17,9 +40,53 @@ while True:
         print(
             "text func is a store for text, integer does the same for numbers, string numbers are numbers that act as text and finally print() func displays all text and integer stores")
         print('---------------------------------------------------------------------------------')
+    elif search_ent == "text":
+        print('_________________________________________________________________________________')
+        print(
+            "text func is a store for text, integer does the same for numbers, string numbers are numbers that act as text and finally print() func displays all text and integer stores")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "integers":
+        print('_________________________________________________________________________________')
+        print(
+            "text func is a store for text, integer does the same for numbers, string numbers are numbers that act as text and finally print() func displays all text and integer stores")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "words":
+        print('_________________________________________________________________________________')
+        print(
+            "text func is a store for text, integer does the same for numbers, string numbers are numbers that act as text and finally print() func displays all text and integer stores")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "numbers":
+        print('_________________________________________________________________________________')
+        print(
+            "text func is a store for text, integer does the same for numbers, string numbers are numbers that act as text and finally print() func displays all text and integer stores")
+        print('---------------------------------------------------------------------------------')
     elif search_ent == "var":
         print('_________________________________________________________________________________')
         print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "variable":
+        print('_________________________________________________________________________________')
+        print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "x":
+        print('_________________________________________________________________________________')
+        print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "y":
+        print('_________________________________________________________________________________')
+        print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "z":
+        print('_________________________________________________________________________________')
+        print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "i":
+        print('_________________________________________________________________________________')
+        print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
+    else:
+        print('_________________________________________________________________________________')
+        print("error 404 https://www.seowebdesignllc.com/wp-content/uploads/2020/05/google-404-error-screensnap.jpg")
         print('---------------------------------------------------------------------------------')
 
 
