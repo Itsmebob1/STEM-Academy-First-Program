@@ -1,10 +1,10 @@
-print("___________    ___________")
-print("I         I    I          ")
-print("I         I    I          ")
-print("-----------    -----------")
-print("I                        I")
-print("I                        I")
-print("I              -----------")
+print("___________                __________                                                    I")
+print("I         I    I      I    I                                                             I")
+print("I         I    I      I    I             ________    ________    ________    ________    I")
+print("-----------    --------    ----------    I      I           I    I           I           --------")
+print("I                     I             I    --------    --------    I           I           I      I")
+print("I                     I             I    I           I      I    I           I           I      I")
+print("I              --------     ---------    --------    --------    I           ________    I      I")
 while True:
     search_ent = input("Search...🔎 ")
     if search_ent == "while loop ":
@@ -66,23 +66,44 @@ while True:
         print('---------------------------------------------------------------------------------')
     elif search_ent == "variable":
         print('_________________________________________________________________________________')
-        print("Var means Variable, func means function")
+        print("Var means Variable, func means function e.g. 'x = 2'")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "variables":
+        print('_________________________________________________________________________________')
+        print("Var means Variable, func means function e.g. 'x = 2'")
         print('---------------------------------------------------------------------------------')
     elif search_ent == "x":
         print('_________________________________________________________________________________')
-        print("Var means Variable, func means function")
+        print("Var means Variable, func means function X is a placeholder in Pysearch for any 1st Var")
         print('---------------------------------------------------------------------------------')
     elif search_ent == "y":
         print('_________________________________________________________________________________')
-        print("Var means Variable, func means function")
+        print("Var means Variable, func means function Y is a placeholder in Pysearch for any 2nd Var")
         print('---------------------------------------------------------------------------------')
     elif search_ent == "z":
         print('_________________________________________________________________________________')
-        print("Var means Variable, func means function")
+        print("Var means Variable, func means function Z is a placeholder in Pysearch for any 3rd Var")
         print('---------------------------------------------------------------------------------')
     elif search_ent == "i":
         print('_________________________________________________________________________________')
         print("Var means Variable, func means function")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "STOP":
+        print('_________________________________________________________________________________')
+        print("Program has ended successfully")
+        print('---------------------------------------------------------------------------------')
+        break
+    elif search_ent == "Pysearch":
+        print('_________________________________________________________________________________')
+        print("PySearch is a Python based search engine")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "operators":
+        print('_________________________________________________________________________________')
+        print("X (ANY OPERATOR) Y")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "sums":
+        print('_________________________________________________________________________________')
+        print("X (ANY OPERATOR) Y")
         print('---------------------------------------------------------------------------------')
     else:
         print('_________________________________________________________________________________')
