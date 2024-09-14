@@ -6,3 +6,5 @@ hyflow.DGH
 python.DPH
 enniskillen-stem-academy.DEH
 python.DDH
+google.DSH
+edge.DSH
