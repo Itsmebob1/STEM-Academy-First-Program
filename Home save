@@ -6,7 +6,7 @@ print("I                     I             I    --------    --------    I       
 print("I                     I             I    I           I      I    I           I           I      I")
 print("I              --------     ---------    --------    --------    I           ________    I      I")
 while True:
-    search_ent = input("Search...🔎 ")
+    search_ent = input("Search for python scripts 🔎 ")
     if search_ent == "while loop ":
         print('_________________________________________________________________________________')
         print("While x <5:    this will run any indented scripts as long as x var is less than 5")
@@ -93,7 +93,7 @@ while True:
         print("Program has ended successfully")
         print('---------------------------------------------------------------------------------')
         break
-    elif search_ent == "Pysearch":
+    elif search_ent == "pysearch":
         print('_________________________________________________________________________________')
         print("PySearch is a Python based search engine")
         print('---------------------------------------------------------------------------------')
@@ -105,9 +105,21 @@ while True:
         print('_________________________________________________________________________________')
         print("X (ANY OPERATOR) Y")
         print('---------------------------------------------------------------------------------')
+    elif search_ent == "floats":
+        print('_________________________________________________________________________________')
+        print("floats are integers with decimals")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "float":
+        print('_________________________________________________________________________________')
+        print("floats are integers with decimals")
+        print('---------------------------------------------------------------------------------')
+    elif search_ent == "float variables":
+        print('_________________________________________________________________________________')
+        print("floats are integers with decimals")
+        print('---------------------------------------------------------------------------------')
     else:
         print('_________________________________________________________________________________')
-        print("error 404 https://github.com/Itsmebob1/STEM-Academy-First-Program/blob/main/python.py
+        print("error 404 https://github.com/Itsmebob1/STEM-Academy-First-Program/blob/main/python.py")
         print('---------------------------------------------------------------------------------')
 
 
