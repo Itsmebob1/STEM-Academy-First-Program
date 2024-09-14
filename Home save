@@ -107,7 +107,7 @@ while True:
         print('---------------------------------------------------------------------------------')
     else:
         print('_________________________________________________________________________________')
-        print("error 404 https://www.seowebdesignllc.com/wp-content/uploads/2020/05/google-404-error-screensnap.jpg")
+        print("error 404 https://github.com/Itsmebob1/STEM-Academy-First-Program/blob/main/python.py
         print('---------------------------------------------------------------------------------')
 
 
